@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|Slabo+13px|Slabo+27px');
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+/* body {
+    background: url(images/back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+} */
+.input {
+    width: 60%!important;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('https://img.icons8.com/cotton/26/000000/search.png');
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    margin: 15px 0px;
+    }
+    #table {
+    border-collapse: separate;
+    border-spacing: 0px 26px;
+    width: 100%;
+    padding: 0px 50px;
+    }
+    td {
+        border-radius: 40px;
+        padding-left: 25px;
+        border: 1px solid black;
+        font-size: 16px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .status-badge {
+        padding: .4em 2.2em;
+        width: 7.5rem;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .badge-okay {
+        background-color: #449414;
+    }
+    .badge-warning {
+        background-color: #ffff00f7!important;
+    }
+    .badge-down {
+        background-color:#e80422;
+    }
+    img {
+      width: 70px;
+    }
+    .header {
+        margin: 45px 0px;
+    }
+    .header h1 {
+        margin-bottom: 0px;
+        position: relative;
+        top: 11px;
+    }
+    .header span {
+        margin-bottom: 40px
+    }
+    hr {
+        color: red;
+        border: 3px solid;
+    }
